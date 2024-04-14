@@ -16,6 +16,7 @@ import Cards from "@/components/Card";
 import Loading from "@/components/Loading";
 import Login from "@/components/Login";
 import Sidebar from "./components/sidebar/Sidebar";
+import Experience from "@/components/Experience";
 function App() {
   const [count, setCount] = useState(0);
 
@@ -195,6 +196,7 @@ function App() {
               </div>
             </div>
           </div>
+          <Experience></Experience>
         </div>
       )}
     </>
